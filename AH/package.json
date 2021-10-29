@@ -1,0 +1,16 @@
+{
+  "name": "ah_opdracht",
+  "version": "1.0.0",
+  "description": "ah , cypress , opdracht",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key c1de76d2-26b9-4111-9b49-7ad1f9c643c8"
+  },
+  "author": "Tom Kotterer",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  }
+}
